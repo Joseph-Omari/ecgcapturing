@@ -68,8 +68,8 @@ export default async function viewdata() {
               <th>Id Number</th>
               <th>Remarks</th>
             </tr>
+            {/* <tr className="p-4 gap-4 bg-slate-300 mb-4 rounded-md">
             {field.map((meters)=>(
-              <tr className="p-4 gap-4 bg-slate-300 mb-4 rounded-md">
                 <td>{meters.groupNumber}</td>
                 <td>{meters.cusName}</td>
                 <td>{meters.cusContact}</td>
@@ -82,9 +82,9 @@ export default async function viewdata() {
                 <td>{meters.digitalAddress}</td>
                 <td>{meters.idType}</td>
                 <td>{meters.idNumber}</td>
-                <td>{meters.remarks}</td>
-              </tr>
-            ))}
+                <td>{meters.remarks}</td>            
+              ))}
+            </tr> */}
         </table>
         
       </div>
