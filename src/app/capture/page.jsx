@@ -67,7 +67,7 @@ const capture = () => {
         <div className="flex justify-between bg-slate-400 p-2 rounded-md">
           <h1>Reporting Group:</h1>
           <input
-          uppercase
+          
             onChange={(e) => setGroupNumber(e.target.value)}
             value={groupNumber}
             type="text"
@@ -79,7 +79,7 @@ const capture = () => {
         <div className="flex justify-between bg-slate-400 p-2 rounded-md items-center">
           <h1>Customer Name:</h1>
           <input
-          uppercase
+          
             onChange={(e) => setCusName(e.target.value)}
             value={cusName}
             type="text"
@@ -91,7 +91,7 @@ const capture = () => {
         <div className="flex justify-between bg-slate-400 p-2 rounded-md items-center">
           <h1>Customer Contact:</h1>
           <input
-          uppercase
+          
             onChange={(e) => setCusContact(e.target.value)}
             value={cusContact}
             type="tel"
@@ -105,7 +105,7 @@ const capture = () => {
         <div className="flex justify-between bg-slate-400 p-2 rounded-md items-center">
           <h1>Tariff Class:</h1>
           <select
-          uppercase
+          
             name=""
             id=""
             className="p-1"
@@ -120,7 +120,7 @@ const capture = () => {
         <div className="flex justify-between bg-slate-400 p-2 rounded-md items-center">
           <h1>Activity:</h1>
           <input
-          uppercase
+          
             onChange={(e) => setActivity(e.target.value)}
             value={activity}
             type="text"
@@ -132,7 +132,7 @@ const capture = () => {
         <div className="flex justify-between bg-slate-400 p-2 rounded-md items-center">
           <h1>Meter Number:</h1>
           <input
-          uppercase
+          
             onChange={(e) => setMeterNumber(e.target.value)}
             value={meterNumber}
             type="number"
@@ -144,7 +144,7 @@ const capture = () => {
         <div className="flex justify-between bg-slate-400 p-2 rounded-md items-center">
           <h1>Readings:</h1>
           <input
-          uppercase
+          
             onChange={(e) => setReadings(e.target.value)}
             value={readings}
             type="number"
@@ -156,7 +156,7 @@ const capture = () => {
         <div className="flex justify-between bg-slate-400 p-2 rounded-md items-center">
           <h1>Anomaly:</h1>
           <select
-          uppercase
+          
             name=""
             id=""
             onChange={(e) => setAnomaly(e.target.value)}
@@ -187,7 +187,7 @@ const capture = () => {
         <div className="flex justify-between bg-slate-400 p-2 rounded-md items-center">
           <h1>Flat Rate Category:</h1>
           <input
-          uppercase
+          
             onChange={(e) => setFlatRate(e.target.value)}
             value={flatRate}
             type="number"
@@ -199,7 +199,7 @@ const capture = () => {
         <div className="flex justify-between bg-slate-400 p-2 rounded-md items-center">
           <h1>Digital Address:</h1>
           <input
-          uppercase
+          
             onChange={(e) => setDigitalAddress(e.target.value)}
             value={digitalAddress}
             type="text"
@@ -208,15 +208,10 @@ const capture = () => {
           />
         </div>
 
-        {/* <div className="flex justify-between bg-slate-400 p-2 rounded-md items-center">
-          <h1>Upload Meter Image:</h1>
-          <input type="file" className="rounded-r-md p-1" />
-        </div> */}
-
         <div className="flex justify-between bg-slate-400 p-2 rounded-md items-center">
           <h1>Type of Id:</h1>
           <select
-          uppercase
+          
             name=""
             id=""
             className="p-1"
@@ -234,7 +229,7 @@ const capture = () => {
         <div className="flex justify-between bg-slate-400 p-2 rounded-md items-center">
           <h1>ID Card No.:</h1>
           <input
-          uppercase
+          
             onChange={(e) => setIdNumber(e.target.value)}
             value={idNumber}
             type="text"
@@ -243,20 +238,10 @@ const capture = () => {
           />
         </div>
 
-        {/* <div className="flex justify-between bg-slate-400 p-2 rounded-md items-center">
-          <h1>Upload Id (Front):</h1>
-          <input type="file" className="rounded-r-md p-1" />
-        </div>
-
-        <div className="flex justify-between bg-slate-400 p-2 rounded-md items-center">
-          <h1>Upload Id (Back):</h1>
-          <input type="file" className="rounded-r-md p-3" />
-        </div> */}
-
         <div className="flex justify-between bg-slate-400 p-2 rounded-md items-center">
           <h1>Remarks:</h1>
           <input
-          uppercase
+          
             onChange={(e) => setRemarks(e.target.value)}
             value={remarks}
             type="text"
