@@ -1,5 +1,5 @@
 import React from "react";
-import { FiDownload } from 'react-icons/fa';
+// import { FiDownload } from 'react-icons/fa';
 
 const getData = async () => {
   try {
